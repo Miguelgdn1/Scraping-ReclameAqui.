@@ -1,30 +1,30 @@
-Aqui está uma versão simplificada do README para o seu projeto.
+Aqui está o README, sem emojis.
 
 -----
 
 # Desafio Bluetape: Scraper Reclame Aqui
 
-[cite\_start]Este projeto é um web scraper em Python [cite: 6, 10] desenvolvido para o desafio técnico da Bluetape.
+Este projeto é um web scraper em Python desenvolvido para o desafio técnico da Bluetape.
 
-## 🎯 Objetivo
+## Objetivo
 
-[cite\_start]O script automatiza a navegação no site Reclame Aqui [cite: 22, 24] [cite\_start]para extrair dados da categoria "Casa de Aposta"[cite: 31]. [cite\_start]Ele coleta as "Melhores" e "Piores" empresas [cite: 30, 31] [cite\_start]e extrai as seguintes métricas[cite: 27]:
+O script automatiza a navegação no site Reclame Aqui para extrair dados da categoria "Casa de Aposta". Ele coleta as "Melhores" e "Piores" empresas e extrai as seguintes métricas:
 
   * Nota
   * Reclamações respondidas (%)
   * Voltariam a fazer negócio (%)
   * Índice de solução (%)
 
-[cite\_start]Os dados coletados são salvos em uma planilha Excel[cite: 32].
+Os dados coletados são salvos em uma planilha Excel.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
   * **Python**
-  * [cite\_start]**Selenium** [cite: 14] (para automação do navegador)
-  * [cite\_start]**Beautiful Soup** [cite: 18] (para extração de dados do HTML)
-  * [cite\_start]**Pandas** [cite: 16] (para exportar para Excel)
+  * **Selenium** (para automação do navegador)
+  * **Beautiful Soup** (para extração de dados do HTML)
+  * **Pandas** (para exportar para Excel)
 
-## 🚀 Como Executar
+## Como Executar
 
 **1. Pré-requisitos:**
 
@@ -54,6 +54,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📄 Resultado
+## Resultado
 
 Ao final da execução, o script criará um arquivo chamado **`casas_de_aposta.xlsx`** no mesmo diretório, contendo os dados das empresas.

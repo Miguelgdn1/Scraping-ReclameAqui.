@@ -1,5 +1,5 @@
-from src.ExportadorExcel import ExportadorExcel
-from src.ReclameAquiScraper import ReclameAquiScraper
+from scraper_pack.ExportadorExcel import ExportadorExcel
+from scraper_pack.ReclameAquiScraper import ReclameAquiScraper
 
 
 def main():

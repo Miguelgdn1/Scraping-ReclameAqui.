@@ -1,8 +1,5 @@
 
-
-# Desafio Bluetape: Scraper Reclame Aqui
-
-Este projeto é um web scraper em Python desenvolvido para o desafio técnico da Bluetape.
+Projeto Scraper Reclame Aqui
 
 ## Objetivo
 

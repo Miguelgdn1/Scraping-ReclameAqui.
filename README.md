@@ -1,6 +1,4 @@
-Aqui está o README, sem emojis.
 
------
 
 # Desafio Bluetape: Scraper Reclame Aqui
 

@@ -4,12 +4,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from bs4 import BeautifulSoup
-import pandas as pd
+import undetected_chromedriver as uc
 import time
 
 class ReclameAquiScraper:
     def __init__(self):
-        self.driver = webdriver.Chrome()
+        self.driver = uc.Chrome()
         self.wait = WebDriverWait(self.driver, 10)
         self.URL_BASE = "https://www.reclameaqui.com.br"
         self.RANKINGS = ("Melhores", "Piores")
